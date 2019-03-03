@@ -1,4 +1,4 @@
-# project 1 @cmda-minor-web · 2018-2019
+# Project 1 @cmda-minor-web · 2018-2019
 
 ## Zoek in de de collectie van de OBA
 
