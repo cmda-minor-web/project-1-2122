@@ -31,3 +31,18 @@ In het vak [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-resc
 - Presentatie met je bevindingen bij de OBA. 
 - Github met je code en readme.
 
+<!-- Add a link to your live demo in Github Pages 🌐-->
+
+<!-- ☝️ replace this description with a description of your own work -->
+
+<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+
+<!-- Maybe a table of contents here? 📚 -->
+
+<!-- How about a section that describes how to install this project? 🤓 -->
+
+<!-- ...but how does one use this project? What are its features 🤔 -->
+
+<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
+
+<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
