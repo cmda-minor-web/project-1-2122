@@ -6,7 +6,7 @@ Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.30 uur de 
 
 ## Instructie voor het gebruiken van de API
 
- [http://zoeken.oba.nl/api/v1])(http://zoeken.oba.nl/api/v1)
+ [http://zoeken.oba.nl/api/v1](http://zoeken.oba.nl/api/v1)
  
  Zie voorbeeld code in deze repository voor het aanspreken van de API.
 
