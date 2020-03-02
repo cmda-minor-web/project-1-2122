@@ -17,7 +17,7 @@ We verzamelen maandagochtend om 10.15 op de 1e verdieping van de Centrale OBA, [
 ### Werkwijze
 Full-time week werken aan (technisch) bewijzen van een concept-idee. Vrijdag is de pitch! Student laat zien dat hij/zij de vakken [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-1819) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-1819) begrijpt en beheerst.
 
-Iedere dag zijn er coaches aanwezig voor coaching en feedback. We sluiten de dag af met een stand up, om de status door te spreken. Waar ben je mee bezig? Loop je ergens vast of heb je hulp nodig? Waar sta je?
+Op maandag, woensdag en vrijdag zijn er coaches aanwezig voor coaching en feedback. Maandag is de kickoff, woiensdagochtend zijn er standups om de status door te spreken en vrijdag is de beoordeling. Waar ben je mee bezig? Loop je ergens vast of heb je hulp nodig? Waar sta je?
 
 ### Beoordeling
 Tijdens de beoordeling krijg je feedback op het resultaat en op je functioneren. De vakdocenten kijken naar je code en beoordelen In hoeverre je in het project laten zien dat je de bijhorende vakken beheerst en goed hebt toegepast. Lifely is geïnteresseerd in hoeverre je oplossing voldoet aan de eisen die zijzelf stellen aan hun producten. Misschien laat je wel wat zien waar ze zelf nog niet aan gedacht hebben?
