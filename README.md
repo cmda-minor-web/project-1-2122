@@ -1,6 +1,6 @@
 # Project 1 @cmda-minor-web · 2020-2021
 
-## OBA Digitaal leermateriaal voor een leven lang leren
+## Digitaal leermateriaal voor een leven lang leren @OBA
 
 Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.00 uur de kickoff (09:30 uur inloop), vrijdag zijn de presentaties van de resultaten. In een week bouwt iedere student aan de hand van een user story een eigen prototype. Technieken geleerd bij [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-1819) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-1819) worden toegepast bij het bouwen van de de prototypes.
 
