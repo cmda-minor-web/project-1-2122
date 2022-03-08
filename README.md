@@ -20,7 +20,7 @@ Werken aan de opdracht @OBA
 
 _9:30 uur - 16.00 uur_  
 
-Werken aan de opdracht @OBA  
+Gebruikers interviewen & werken aan de opdracht @OBA   
 
 **Woensdag 16/03**  
 
@@ -34,7 +34,7 @@ Werken aan de opdracht @OBA
 
 _9:30 uur - 16.00 uur_  
 
-Werken aan de opdracht @OBA 
+Testen met gebruikers & werken aan de opdracht @OBA 
 
 **Vrijdag 18/03**  
 
