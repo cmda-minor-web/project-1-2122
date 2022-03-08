@@ -5,7 +5,23 @@
 Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.00 uur de kickoff (09:30 uur inloop), vrijdag zijn de presentaties van de resultaten. In een week bouwt iedere student aan de hand van een user story een eigen prototype. Technieken geleerd bij [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-2021) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2021) worden toegepast bij het bouwen van de de prototypes.
 
 ## Programma
-We verzamelen maandagochtend 14 Maart vanaf 09:30 uur op de 1e verdieping van de Centrale OBA, [Oosterdokskade 143](https://www.google.com/maps/place/OBA+library+of+Amsterdam/@52.3756983,4.9082087,15z/data=!4m2!3m1!1s0x0:0x6b97f693e6ecb494?ved=2ahUKEwioo6OrzubgAhWLNOwKHR6KDQgQ_BIwCnoECAYQCA).
+**Maandag 14/03**
+_10:00 uur kickoff_
+We verzamelen vanaf 09:30 uur op de 1e verdieping van de Centrale OBA, [Oosterdokskade 143](https://www.google.com/maps/place/OBA+library+of+Amsterdam/@52.3756983,4.9082087,15z/data=!4m2!3m1!1s0x0:0x6b97f693e6ecb494?ved=2ahUKEwioo6OrzubgAhWLNOwKHR6KDQgQ_BIwCnoECAYQCA).
+
+**Dinsdag 15/03**
+Werken aan de opdracht @OBA
+
+**Woensdag 16/03**
+_(tijd nog te bepalen)_
+Standups met coaches en opdrachtgever 
+
+**Donderdag 17/03**
+Werken aan de opdracht @OBA
+
+**Vrijdag 18/03**
+_(tijd nog te bepalen)_
+Beoordeling @OBA
 
 ## Werkwijze en Criteria
 ### Werkwijze
