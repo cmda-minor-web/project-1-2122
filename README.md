@@ -21,7 +21,7 @@ Standups met coaches en opdrachtgever
 _9:30 uur - 16.00 uur_  
 Werken aan de opdracht @OBA 
 
-**Donderdag 17/03** 
+**Donderdag 17/03**  
 _9:30 uur - 16.00 uur_  
 Werken aan de opdracht @OBA 
 
