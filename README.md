@@ -8,16 +8,22 @@ Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.00 uur de 
 **Maandag 14/03**  
 _10:00 uur kickoff_  
 We verzamelen vanaf 09:30 uur op de 1e verdieping van de Centrale OBA, [Oosterdokskade 143](https://www.google.com/maps/place/OBA+library+of+Amsterdam/@52.3756983,4.9082087,15z/data=!4m2!3m1!1s0x0:0x6b97f693e6ecb494?ved=2ahUKEwioo6OrzubgAhWLNOwKHR6KDQgQ_BIwCnoECAYQCA).
+_11:00 uur - 16:00 uur_  
+Werken aan de opdracht @OBA 
 
 **Dinsdag 15/03**  
+_9:30 uur - 16.00 uur_  
 Werken aan de opdracht @OBA  
 
 **Woensdag 16/03**  
 _(tijd nog te bepalen)_  
 Standups met coaches en opdrachtgever 
+_9:30 uur - 16.00 uur_  
+Werken aan de opdracht @OBA 
 
-**Donderdag 17/03**  
-Werken aan de opdracht @OBA  
+**Donderdag 17/03** 
+_9:30 uur - 16.00 uur_  
+Werken aan de opdracht @OBA 
 
 **Vrijdag 18/03**  
 _(tijd nog te bepalen)_  
