@@ -21,7 +21,7 @@ We verzamelen vanaf 09:30 uur op de 1e verdieping van de Centrale OBA, [Oosterdo
 |  | 11:00 - 16:00 uur | Werken aan de opdracht @OBA |
 | Dinsdag 15/03 | 9:30 - 16:00 uur | Gebruikers interviewen @OBA|
 | Woensdag 16/03 | 9:30 - 16:00 uur | Standups met coaches en opdrachtgever @OBA |
-|  | 15:00 uur | Weekly Nerd |
+|  | 16:00 uur | Weekly Nerd |
 | Donderdag 17/03 | 9:30 - 16:00 uur | Testen met gebruikers @OBA |
 | Vrijdag 18/03 | 12:00 uur | Presentaties en beoordeling @OBA |
 
