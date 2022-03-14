@@ -21,7 +21,7 @@ Aan jullie dus de opdracht om de verschillende bronnen via de api doorzoekbaar t
 **Voeding en diëtiek**  
 Als sportieve twintiger wil ik mij verdiepen in het effect van gezonde voeding op mijn conditie, om te leren hoe ik mijn sport beter kan beoefenen.
 
-**Digitaal burgerschap** 
+**Digitaal burgerschap**  
 Als oudere burger wil ik leren hoe ik digitale formulieren van de gemeente kan vinden, invullen en versturen, om zodoende de digitalisering van de maatschappij beter het hoofd te kunnen bieden.
 
 **Ondernemen**   
