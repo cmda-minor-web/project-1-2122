@@ -13,6 +13,22 @@ Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.00 uur de 
 
 We verzamelen vanaf 09:30 uur op de 1e verdieping van de Centrale OBA, [Oosterdokskade 143](https://www.google.com/maps/place/OBA+library+of+Amsterdam/@52.3756983,4.9082087,15z/data=!4m2!3m1!1s0x0:0x6b97f693e6ecb494?ved=2ahUKEwioo6OrzubgAhWLNOwKHR6KDQgQ_BIwCnoECAYQCA).
 
+## Opdrachtomschrijving
+Binnen het OBA thema leven lang leren willen we de Amsterdammers van zoveel mogelijk bronnen voorzien om informeel te kunnen (blijven) leren. 
+Naast de informatieve boeken, cursussen, videos enzovoort hebben we als nieuwe bron: open leermaterialen. Dit zijn onderzoeken en andere ondersteunende materialen op mbo/hbo/wo niveau . Deze verschillende bronnen willen we graag op thema doorzoekbaar maken en zinnig vormgegeven aanbieden aan de Amsterdammers. 
+Aan jullie dus de opdracht om de verschillende bronnen via de api doorzoekbaar te maken, en deze voor de doelgroep volwassen, aan de hand van onderstaande thema's, vormgegeven aan te bieden. 
+
+Voeding en diëtiek  
+Als sportieve twintiger wil ik mij verdiepen in het effect van gezonde voeding op mijn conditie, om te leren hoe ik mijn sport beter kan beoefenen.
+
+Digitaal burgerschap  
+Als oudere burger wil ik leren hoe ik digitale formulieren van de gemeente kan vinden, invullen en versturen, om zodoende de digitalisering van de maatschappij beter het hoofd te kunnen bieden.
+
+Ondernemen   
+Als jonge ondernemer wil ik meer informatie vinden over het opzetten van een onderneming, om zodoende meer kans te hebben op succes.
+
+Je bouwt een Single Page Application met data uit de API. Voor de vormgeving van de interface mag je out of the box denken. Je kan elementen uit de huisstijl van de OBA gebruiken, maar bent hier niet aan gebonden. Maak gebruik van al je CSS kennis en ga het experiment aan!
+
 ## Weekplanning
 
 | Dag  | Tijd | Wat |
