@@ -18,13 +18,13 @@ Binnen het OBA thema leven lang leren willen we de Amsterdammers van zoveel moge
 Naast de informatieve boeken, cursussen, videos enzovoort hebben we als nieuwe bron: open leermaterialen. Dit zijn onderzoeken en andere ondersteunende materialen op mbo/hbo/wo niveau . Deze verschillende bronnen willen we graag op thema doorzoekbaar maken en zinnig vormgegeven aanbieden aan de Amsterdammers. 
 Aan jullie dus de opdracht om de verschillende bronnen via de api doorzoekbaar te maken, en deze voor de doelgroep volwassen, aan de hand van onderstaande thema's, vormgegeven aan te bieden. 
 
-Voeding en diëtiek  
+**Voeding en diëtiek**  
 Als sportieve twintiger wil ik mij verdiepen in het effect van gezonde voeding op mijn conditie, om te leren hoe ik mijn sport beter kan beoefenen.
 
-Digitaal burgerschap  
+**Digitaal burgerschap** 
 Als oudere burger wil ik leren hoe ik digitale formulieren van de gemeente kan vinden, invullen en versturen, om zodoende de digitalisering van de maatschappij beter het hoofd te kunnen bieden.
 
-Ondernemen   
+**Ondernemen**   
 Als jonge ondernemer wil ik meer informatie vinden over het opzetten van een onderneming, om zodoende meer kans te hebben op succes.
 
 Je bouwt een Single Page Application met data uit de API. Voor de vormgeving van de interface mag je out of the box denken. Je kan elementen uit de huisstijl van de OBA gebruiken, maar bent hier niet aan gebonden. Maak gebruik van al je CSS kennis en ga het experiment aan!
