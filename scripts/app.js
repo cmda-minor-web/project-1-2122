@@ -1,3 +1,13 @@
-const url = 'https://zoeken.oba.nl/api/v1/search/?q=%voetbal%22&refine=true&authorization=16c19e6083308c984c452600134989ba&sort=act_dt_asc&output=json'
-fetch(url).then(response => response.json())
-          .then(data => console.table(data.results))
+const cors = 'https://cors-anywhere.herokuapp.com/'
+const search = 'https://zoeken.oba.nl/api/v1/search/?q='
+const key = 'dc0e2f073c03758140452044906bc818'
+const categorie = 'voeding'
+const secret = '6b02878111c06660300798cf4c40a685'
+const config = {
+    Authorization: `Bearer ${secret}`
+}
+const url = `${cors}${search}${categorie}&authorization=${key}&sort=act_dt_asc&output=json`
+
+fetch(url, config)
+    .then(response => response.json())
+    .then(data => console.table(data.results))
