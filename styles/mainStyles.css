@@ -2,3 +2,87 @@
 	margin: 0;
 	padding: 0;
 }
+::-webkit-scrollbar {
+	height: .3em;
+	width: .5em;
+}
+::-webkit-scrollbar-track {
+	background: black;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #fff;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+}
+header {
+	display: flex;
+	justify-content: center;
+	padding: .3rem 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	transform: rotate(-90deg) translateX(-50%);
+	transform-origin: left top;
+	top: 50%;
+	left: 0;
+	font-size: 1.4rem;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+header a {
+	text-decoration: none;
+	color: #000;
+	transition: .5s;
+}
+header a:hover {
+	transform: scale(1.05);
+}
+header a img {
+	width: 5em;
+	transform: rotate(180deg)
+}
+main > section {
+	position: absolute;
+	width: 100vw;
+	display: flex;
+	overflow: auto;
+	height: 100vh;
+	scroll-snap-type: x mandatory;
+}
+main > section > ul {
+	display: flex;
+	flex-wrap: nowrap;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+main > section > ul > li {
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align: center;
+
+}
+main > section > ul > li > h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 8em;
+}
+main > section > ul > li > input{
+	display: none;
+}
+main > section > ul > li > label{
+	border: .2em solid red;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 2.5em;
+	width: 2.5em;
+	transition: 1s;
+	background-color: #000;
+}
