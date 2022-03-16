@@ -20,14 +20,14 @@ function getBooks() {
 	fetch(url, config).then(response => {
 		return response.json();
 	}).then(data => {
-		render(data);
+		renderBooks(data);
 		hideLoading()
 	}).catch(err => {
 		console.log(err);
 	});
 }
 
-function render(data) {
+function renderBooks(data) {
 	const results = data.results;
 	console.dir(results);
 	results.forEach((book) => {
