@@ -7,10 +7,10 @@
 	width: .5em;
 }
 ::-webkit-scrollbar-track {
-	background: #FF0000;
+	background: #000;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: #000;
+	background-color: #FF0000;
 }
 body {
 	font-family: 'Montserrat', sans-serif;
