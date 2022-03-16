@@ -3,7 +3,7 @@
 	padding: 0;
 }
 ::-webkit-scrollbar {
-	height: .3em;
+	height: .8em;
 	width: .5em;
 }
 ::-webkit-scrollbar-track {
@@ -19,10 +19,8 @@ body {
 header {
 	display: flex;
 	justify-content: center;
-	padding: .3rem 0;
 	position: fixed;
 	width: 100%;
-	z-index: 10;
 	transform: rotate(-90deg) translateX(-50%);
 	transform-origin: left top;
 	top: 50%;
@@ -58,23 +56,45 @@ main > section > ul {
 	justify-content: center;
 	align-items: center;
 }
-main > section > ul > li {
+main > section > ul > li:first-of-type {
 	width: 100vw;
-	height: 99.5vh;
+	height: 98.5vh;
 	display: flex;
 	flex-direction: column;
 	list-style: none;
 	justify-content: center;
 	align-items: center;
 	scroll-snap-align: center;
+	margin-right: -16vw;
+}
+main > section > ul > li:not(li:first-of-type) {
+	width: 100vw;
+	height: 98.5vh;
+	display: grid;
+	list-style: none;
+	grid-template: repeat(5, 1fr 2fr) / repeat(5, 3fr 2fr);
+	scroll-snap-align: center;
+	margin-right: -16vw;
+}
+.loader {
+	position: absolute;
+	top: 43em;
+	width: 3em;
+	height: 3em;
+	border: .1em solid #000;
+	border-radius: 50%;
+	animation: loaderAnim 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 main > section > ul > li > h1{
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 5em;
+	font-size: 4em;
 	width: 60%;
 	color: #000;
 	line-height: 1.3em;
+}
+main > section > ul > li > label{
+	margin-top: 3em;
 }
 main > section > ul > li > select {
 	width: 20em;
@@ -87,3 +107,40 @@ main > section > ul > li > select {
 	padding: .8em .5em;
 	margin-top: 4em;
 }
+main > section > ul > li img {
+	grid-area: 2 / 2 / span 2 / span 2;
+	width: 23em;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+main > section > ul > li h2 {
+	padding: .2em 0;
+	text-align: left;
+	grid-area: 3 / 5 / span 3 / span 6;
+	max-width: 65%;
+	font-size: 2em;
+}
+main > section > ul > li p:first-of-type{
+	padding: 3em 0;
+	grid-area: 5 / 5 / span 3 / span 6;
+	max-width: 65%;
+	line-height: 1.7em;
+}
+main > section > ul > li p:last-of-type {
+	font-style: italic;
+	grid-area: 9 / 2 / span 5 / span 3;
+	max-width: 25em;
+}
+@keyframes loaderAnim {
+	0% {
+	  transform: scale(0);
+	  opacity: 1;
+	}
+	50% {
+	  transform: scale(3);
+	  opacity: 0;
+	}
+	100% {
+	  transform: scale(0);
+	  opacity: 1;
+	}
+  }

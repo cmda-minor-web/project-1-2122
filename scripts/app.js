@@ -1,15 +1,66 @@
-const cors = 'https://cors-anywhere.herokuapp.com/'
-const search = 'https://zoeken.oba.nl/api/v1/search/?q='
-const key = 'dc0e2f073c03758140452044906bc818'
-const secret = '6b02878111c06660300798cf4c40a685'
-const config = {
-    Authorization: `Bearer ${secret}`
+const ul = document.querySelector('ul');
+const dropDown = document.querySelector("#selectNumber")
+dropDown.addEventListener("change", function(e) {
+	replace()
+	getBooks()
+});
+
+function getBooks() {
+	const cors = 'https://cors-anywhere.herokuapp.com/';
+	const endpoint = 'https://zoeken.oba.nl/api/v1/search/?q=';
+	const valueDropdown = dropDown.options[dropDown.selectedIndex].value.toString();
+	const key = '17a9c4d4d56a41b55abc2d3096e94be4';
+	const secret = '4289fec4e962a33118340c888699438d';
+	const detail = 'Default';
+	const url = `${cors}${endpoint}${valueDropdown}&authorization=${key}&detaillevel=${detail}&output=json`;
+	const config = {
+		Authorization: `Bearer ${secret}`
+	};
+	showLoading()
+	fetch(url, config).then(response => {
+		return response.json();
+	}).then(data => {
+		render(data);
+		hideLoading()
+	}).catch(err => {
+		console.log(err);
+	});
 }
 
-const valueDropdown = dropDown.options[dropDown.selectedIndex].value.toString();
+function render(data) {
+	const results = data.results;
+	console.dir(results);
+	results.forEach((book) => {
+		const html = `
+            <li>
+                <img src="${book.coverimages[1]}">
+                <h2>${book.titles[0]}</h2>
+                <p>${book.summaries ? book.summaries[0] : 'Sorry, geen samenvatting beschikbaar.'}</p>
+                <p>${book.authors}</p>
+            </li>
+          `;
+		ul.insertAdjacentHTML('beforeend', html);
+	});
+}
 
-const url = `${cors}${search}${valueDropdown}&authorization=${key}&sort=act_dt_asc&output=json`
+function showLoading() {
+	const loadingSection = document.querySelector('div');
+	loadingSection.classList.add('loader');
+}
 
-fetch(url, config)
-    .then(response => response.json())
-    .then(data => console.table(data.results))
+function hideLoading() {
+	const loadingSection = document.querySelector('.loader');
+	loadingSection.classList.remove('loader');
+}
+
+function replace() {
+	for (const node of document.querySelectorAll("li:not(li:first-of-type), li h2, li p, li img")) {
+		const parent = node.parentNode;
+		const children = Array.from(node.children);
+		for (const child of children) {
+			node.removeChild(child);
+			parent.insertBefore(child, node);
+		}
+		parent.removeChild(node);
+	}
+}
