@@ -60,25 +60,28 @@ main > section > ul {
 }
 main > section > ul > li {
 	width: 100vw;
-	height: auto;
+	height: 99.5vh;
 	display: flex;
 	flex-direction: column;
 	list-style: none;
 	justify-content: center;
 	align-items: center;
 	scroll-snap-align: center;
-
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner_1.jpg) no-repeat center center; 
+	background-size: cover;
 }
 main > section > ul > li > h1{
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 8em;
+	font-size: 6em;
+	color: #fff;
 }
 main > section > ul > li > input{
 	display: none;
 }
 main > section > ul > li > label{
 	border: .2em solid red;
+	margin-top: 5em;
 	border-radius: 50%;
 	cursor: pointer;
 	height: 2.5em;
