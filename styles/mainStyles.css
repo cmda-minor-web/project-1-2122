@@ -7,10 +7,10 @@
 	width: .5em;
 }
 ::-webkit-scrollbar-track {
-	background: black;
+	background: #FF0000;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: #fff;
+	background-color: #000;
 }
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -67,25 +67,23 @@ main > section > ul > li {
 	justify-content: center;
 	align-items: center;
 	scroll-snap-align: center;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner_1.jpg) no-repeat center center; 
-	background-size: cover;
 }
 main > section > ul > li > h1{
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 6em;
-	color: #fff;
+	font-size: 5em;
+	width: 60%;
+	color: #000;
+	line-height: 1.3em;
 }
-main > section > ul > li > input{
-	display: none;
-}
-main > section > ul > li > label{
-	border: .2em solid red;
-	margin-top: 5em;
-	border-radius: 50%;
-	cursor: pointer;
-	height: 2.5em;
-	width: 2.5em;
-	transition: 1s;
-	background-color: #000;
+main > section > ul > li > select {
+	width: 20em;
+    border-radius: .5em;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: all .5s ease;
+    font-size: 1em;
+    text-align: left;
+    border: none;
+	padding: .8em .5em;
+	margin-top: 4em;
 }
