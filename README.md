@@ -52,7 +52,7 @@ Full-time week werken aan (technisch) bewijzen van een concept-idee. Vrijdag is 
 Op maandag, woensdag en vrijdag zijn er coaches aanwezig voor coaching en feedback. Maandag is de kickoff, woensdag zijn er standups om de status door te spreken. Waar ben je mee bezig? Loop je ergens vast of heb je hulp nodig? Waar sta je? Vrijdag is de beoordeling.
 
 ### Beoordeling
-Tijdens de beoordeling krijg je feedback op het resultaat en op je functioneren. De vakdocenten kijken naar je code en beoordelen In hoeverre je in het project laten zien dat je de bijhorende vakken beheerst en goed hebt toegepast. 
+Tijdens de beoordeling krijg je feedback op het resultaat en op je functioneren. De vakdocenten kijken niet naar je code, maar beoordelen In hoeverre je in het project laten zien dat je de bijhorende vakken beheerst en goed hebt toegepast. 
 
 Het project telt als AVV mee met de Meesterproef.
 
